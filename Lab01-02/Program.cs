@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,18 +12,18 @@ namespace Lab01_02
             Console.OutputEncoding = Encoding.UTF8;
             Console.InputEncoding = Encoding.UTF8;
 
-            // --- PHẦN 1: KHỞI TẠO DỮ LIỆU MẪU (8 SINH VIÊN) ---
+           
             List<Student> studentList = new List<Student>
-            {
-                new Student("111111", "Nguyen Van Anh", 9.5f, "CNTT"),      // Xuất sắc, CNTT
-                new Student("222222", "Tran Thi Bich ", 8.0f, "Kinh Te"),     // Giỏi, Kinh Tế
-                new Student("333333", "Le Van Chau", 4.5f, "CNTT"),          // Yếu, CNTT
-                new Student("444444", "Pham Thi Diem", 6.5f, "Ngon Ngu Anh"),// TB, NNA
-                new Student("555555", "Hoang Van Em", 7.5f, "CNTT"),       // Khá, CNTT
-                new Student("666666", "Ngo Thi F", 2.0f, "Kinh Te"),      // Kém, Kinh Tế
-                new Student("777777", "Dang Van G", 10.0f, "CNTT"),       // Thủ khoa, CNTT
-                new Student("888888", "Bui Thi Ha", 5.0f, "Ngon Ngu Anh")  // TB, NNA
-            };
+{
+    new Student("111111", "Nguyễn Văn Anh", 9.5f, "CNTT"),            // Xuất sắc
+    new Student("222222", "Trần Thị Bích", 8.0f, "Kinh Tế"),          // Giỏi
+    new Student("333333", "Lê Văn Châu", 4.5f, "CNTT"),               // Yếu
+    new Student("444444", "Phạm Thị Diễm", 6.5f, "Ngôn Ngữ Anh"),     // TB
+    new Student("555555", "Hoàng Văn Em", 7.5f, "CNTT"),              // Khá
+    new Student("666666", "Ngô Thị F", 2.0f, "Kinh Tế"),              // Kém
+    new Student("777777", "Đặng Văn G", 10.0f, "CNTT"),               // Thủ khoa
+    new Student("888888", "Bùi Thị Hà", 5.0f, "Ngôn Ngữ Anh")         // TB
+};
 
             bool exit = false;
 
